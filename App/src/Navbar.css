@@ -1,0 +1,40 @@
+.Navbar{
+    display: flex ;
+    justify-content: space-around;
+    text-align: center;
+    background: blue;
+    margin: 0 auto;
+    
+}
+.Navbar div{
+    background: red;
+    display: flex ;
+    justify-content: space-around;
+    height: 7vh;
+}
+.L{
+    
+    
+    width: 50px;
+    
+    
+    
+}
+.M{
+    
+    
+    width: 744px;
+    
+    
+    
+
+}
+.R{ 
+    
+    
+    width: 50px;
+    
+    
+    
+
+}
