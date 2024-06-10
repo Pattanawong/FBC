@@ -1,10 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-ReactDOM.render(
-  <div>
-    <h1>Hello World!</h1>
-    <p>This is a paragraph.</p>
-  </div>,
-  document.getElementById("root")
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
