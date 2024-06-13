@@ -1,27 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {BrowserRouter, Route  , Routes} from 'react-router-dom' ;
 
-import Nav from './Navbar.js' ;
-import Menu from './Menu.js' ;
-import Fed from './Feds.js';
-import Searchs from './Searchs.js';
-import './App.css' ;
+import Login from './Login.js';
+import Main from './Main.js';
 
 
-function App() {
+function App (){
   return (
-    <div className="App">
-      <div className='N'>
-      <Nav />
-      </div>
+    
+      <BrowserRouter>
+      <Routes >
+        <Route path='/' element = {<Login/>} />
+        <Route path='/Main'  element = {<Main />} />
+
+      </Routes>
+      </BrowserRouter>
       
-      <div className='content'>
-      <Menu />
-      <Fed />
-      <Searchs />
-      </div>
-      
-    </div>
+    
   );
+
+
 }
 
 export default App;

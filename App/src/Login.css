@@ -1,0 +1,34 @@
+
+body{
+        
+        margin: 0;
+        background: greenyellow;
+}
+.Login{
+        
+        display: flex;
+       justify-content: center;
+       
+        
+}
+
+
+.formlogin {
+        box-shadow: 0px 1px 13px 2px rgba(251, 251, 251, 0.09);
+        margin-top: 15%;
+        display: grid;
+       justify-content: center;
+       align-content: center;
+       justify-items: center;
+        background: rgba(25, 24, 24, 0.32);
+        border: 0;
+        width: 500px;
+        height: 200px;
+}
+input{
+        border-radius: 5px;
+}
+button{
+        width: 40%;
+        border-radius: 5px;
+}
