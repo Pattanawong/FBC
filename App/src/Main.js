@@ -11,7 +11,7 @@ function Main() {
   return (
     <div className="Main">
         <div className='Heads'>
-          <Headroom >
+          <Headroom pinStart={50} >
             <Nav />
             </Headroom>
         </div>
