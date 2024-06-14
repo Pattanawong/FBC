@@ -1,4 +1,5 @@
 import React from 'react';
+import Headroom from 'react-headroom';
 
 import Nav from './Navbar';
 import Menu from "./Menu" ;
@@ -10,7 +11,9 @@ function Main() {
   return (
     <div className="Main">
         <div className='Heads'>
+          <Headroom >
             <Nav />
+            </Headroom>
         </div>
         <div className='Bodys'>
             <Menu />

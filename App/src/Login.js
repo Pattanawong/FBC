@@ -8,8 +8,6 @@ import { Link } from "react-router-dom";
 function Login() {
  
 
-
-
   return (
     <div className="Login">
       <form className="formlogin">
@@ -17,10 +15,9 @@ function Login() {
         <br />
         <input type="password" placeholder="Password" />
         <br />
-        <button >
-          <Link to='/Main'>Login</Link>
-        </button>
         
+          <Link className="Link" to='/Main' ><button>Login</button></Link>
+          
       </form>
     
     </div>

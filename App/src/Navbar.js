@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import H from './Picture/home.png';
 import V from './Picture/video.png';
@@ -24,7 +25,7 @@ function Nav() {
       </div>
       <div className="R">
         <p>Right</p>
-        <button className="Name" >Pattanawong Kupat</button>
+        <Link to='/'> <button className="Name" >Pattanawong Kupat</button></Link> 
       </div>
     </div>
   );

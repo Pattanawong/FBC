@@ -1,5 +1,8 @@
 .Menu{
     
     background:red;
-    
+    }
+.Menefunction button{
+    width: 100%;
+    display: block;
 }
