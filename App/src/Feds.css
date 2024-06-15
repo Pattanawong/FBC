@@ -1,6 +1,6 @@
 .Fed{
     background: orange;
-    
+    overflow-y: scroll;
 }
 .Fed button{
     width: 100%;

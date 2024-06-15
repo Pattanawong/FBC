@@ -1,27 +1,29 @@
 import React from 'react';
-import Headroom from 'react-headroom';
+
 
 import Nav from './Navbar';
-import Menu from "./Menu" ;
-import Fed from "./Feds" ;
+import Menu from "./Menu";
+import Fed from "./Feds";
 import Searchs from './Searchs';
 import './Main.css'
 
 function Main() {
   return (
     <div className="Main">
-        <div className='Heads'>
-          <Headroom pinStart={50} >
-            <Nav />
-            </Headroom>
-        </div>
-        <div className='Bodys'>
-            <Menu />
-            <Fed />
-            <Searchs />
-        </div>
+      <div className='Heads'>
         
-      
+          <Nav />
+        
+      </div>
+      <div className='Bodys'>
+        <Menu />
+
+
+        <Fed />
+        <Searchs />
+      </div>
+
+
     </div>
   );
 }

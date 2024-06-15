@@ -1,8 +1,16 @@
 .Menu{
     
     background:red;
+    
+    
+    }
+    .Menefunction{
+        display: flex;
+    flex-direction: column;
     }
 .Menefunction button{
     width: 100%;
-    display: block;
+    
+    
 }
+    
