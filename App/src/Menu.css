@@ -13,4 +13,8 @@
     
     
 }
-    
+@media only screen and (max-width: 1200px){
+               .Menu{
+                display: none;
+               }
+}

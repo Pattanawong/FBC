@@ -1,5 +1,10 @@
 .Searchs{
 
     background: palevioletred;
-    height: 93vh;
+    
+}
+@media only screen and (max-width: 760px){
+    .Searchs{
+        display: none;
+    }
 }

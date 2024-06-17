@@ -16,7 +16,7 @@ function Main() {
         
       </div>
       <div className='Bodys'>
-        <Menu />
+        <Menu  />
 
 
         <Fed />

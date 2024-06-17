@@ -1,5 +1,18 @@
 .Bodys{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
+        height: 93vh;
+        top: 0;
+}
+
+@media only screen and (max-width: 1200px){
+        .Bodys{
+                grid-template-columns: 3fr 1fr;
+        }
+}
+@media only screen and (max-width: 760px){
+        .Bodys{
+                grid-template-columns: 1fr;
+        }
         
 }
