@@ -1,12 +1,10 @@
 .Fed{
     background: orange;
     overflow-y: scroll;
+    display: grid;
+    justify-items: center;
 }
-.Fed button{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
+
 @media only screen and (max-width: 760px){
     .Fed{
         

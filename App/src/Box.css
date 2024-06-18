@@ -1,0 +1,17 @@
+.Box{
+    
+    background: rgba(215, 37, 37, 0.493);
+    border: solid 1px;
+    width: 50%;
+    margin: 10px;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+}
+.Box img{
+width: 50%;
+border: solid 1px;
+height: 80%;
+}
