@@ -16,7 +16,7 @@ function Login() {
         <input type="password" placeholder="Password" />
         <br />
         
-          <Link className="Link" to='/Main' ><button>Login</button></Link>
+          <Link className="Link" to='/Main' >Login</Link>
           
       </form>
     

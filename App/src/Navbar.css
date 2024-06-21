@@ -9,12 +9,14 @@
     max-height: 7vh;
     min-height: 35px;
     
+    
 }
+
 .Navbar div{
     
     display: flex ;
     justify-content: space-around;
-   
+    
     
     
 }
@@ -51,7 +53,7 @@
     width: 30px;
     height: 30px;
 }
-button{
+.BT{
     width: 20%;
     height: 7vh;
     background: peru;
@@ -59,8 +61,10 @@ button{
     border: 1px solid;
     border-color: rgba(247, 244, 248, 0.258);
     min-height: 35px;
+    align-content: center;
+
 }
-input{
+input[type="search"]{
     height: 4vh;
     width: 15vw;
     min-height: 15px;
@@ -78,7 +82,7 @@ input{
 
 @media only screen and (max-width: 1200px){
 
-         input{
+    input[type="search"]{
                 display: none;
         }
         .Name{
@@ -97,7 +101,7 @@ input{
 }
 @media only screen and (max-width: 760px){
 
-    input{
+    input[type="search"]{
            display: none;
    }
    .Name{
@@ -115,13 +119,14 @@ input{
     display: none;   
     width: 0px;     
    }
-   p{
+   .L1{
     display: none;
    }
    .Navbar{
     position: absolute ;
     bottom: 0;
     width: 100%;
+    overflow-y: hidden;
    }
 
 }

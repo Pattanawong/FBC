@@ -2,7 +2,7 @@
 body{
         
         margin: 0;
-        background: greenyellow;   
+        
        
            
 }
@@ -10,8 +10,8 @@ body{
         
         display: flex;
        justify-content: center;
-       
-        
+       background: greenyellow;   
+        height: 100vh;
 }
 
 
@@ -32,7 +32,7 @@ input{
 }
 .Link{
         display: grid;
-        width: 40%;
+        width: 100px;
         height: 50px;
         border-radius: 5px;
         background-color: blue;
